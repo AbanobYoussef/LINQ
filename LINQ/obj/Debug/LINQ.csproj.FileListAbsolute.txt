@@ -1,0 +1,6 @@
+D:\LINQ\LINQ\bin\Debug\LINQ.exe.config
+D:\LINQ\LINQ\bin\Debug\LINQ.exe
+D:\LINQ\LINQ\bin\Debug\LINQ.pdb
+D:\LINQ\LINQ\obj\Debug\LINQ.exe
+D:\LINQ\LINQ\obj\Debug\LINQ.pdb
+D:\LINQ\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
