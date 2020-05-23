@@ -65,13 +65,21 @@ namespace LINQ
             //string[] group2 = { "Youness", "Hamid", "Ayoub", "Khalid" }; 
 
 
-            string[] Names = {
-                                  "Red","Book","Computer","Mobile",
-                                  "Program","Driver","Windows","Key",
-                                  "Home","Pen","Right","Play","Clic",
-                                  "Languge","Rule","Peace","Word","file"
-                             };
+            //string[] Names = {
+            //                      "Red","Book","Computer","Mobile",
+            //                      "Program","Driver","Windows","Key",
+            //                      "Home","Pen","Right","Play","Clic",
+            //                      "Languge","Rule","Peace","Word","file"
+            //                 };
 
+            int[] numbers = { 4, 5, 7, 2, 8 };
+
+            //var count = numbers.Count();
+            //var count = numbers.Sum();
+            //var count = numbers.Max();
+            //var count = numbers.Min();
+            var count = numbers.Average();
+            Console.WriteLine(count);
 
             // Query Syntax
 
@@ -154,9 +162,14 @@ namespace LINQ
            // var name = Names.First();
 
            // var name = Names.First(a => a.StartsWith("P"));
-            var name = Names.FirstOrDefault(a => a.StartsWith(" "));
+           //var name = Names.FirstOrDefault(a => a.StartsWith(" "));
+           //Console.WriteLine(name==null);
 
-            Console.WriteLine(name);
+
+            //var name = Names.Last();
+            //var name = Names.Last(a => a.StartsWith("P"));
+            //var name = Names.LastOrDefault(a => a.StartsWith(" "));
+            //Console.WriteLine(name==null);
 
             //foreach (var item in Result)
             //{
