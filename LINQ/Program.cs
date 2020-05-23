@@ -72,14 +72,14 @@ namespace LINQ
             //                      "Languge","Rule","Peace","Word","file"
             //                 };
 
-            int[] numbers = { 4, 5, 7, 2, 8 };
+            //int[] numbers = { 4, 5, 7, 2, 8 };
 
             //var count = numbers.Count();
             //var count = numbers.Sum();
             //var count = numbers.Max();
             //var count = numbers.Min();
-            var count = numbers.Average();
-            Console.WriteLine(count);
+            //var count = numbers.Average();
+            //Console.WriteLine(count);
 
             // Query Syntax
 
